@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+@media (min-width: 375px) {
+  .nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  .landing_page {
+    background: url(./images/header-shapes\ mobile.png) no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .my_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .my_info h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .about_me p {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2rem;
+    vertical-align: top;
+  }
+
+  .social_links {
+    text-align: left;
+    color: #7f8cff;
+  }
+
+  .social_logos {
+    display: flex;
+    gap: 20px;
+    color: #505f79;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .nav_logo {
+    color: #6070ff;
+  }
+
+  .menu_bar {
+    width: auto;
+    height: 20%;
+    color: #6070ff;
+  }
+}
