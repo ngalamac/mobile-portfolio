@@ -145,6 +145,8 @@ You can deploy this project using:
 - [ ] Add Javascript.
 - [ ] Add more styling.
 - [ ] Add add header and footer.
+- [ ] Add contact form.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
