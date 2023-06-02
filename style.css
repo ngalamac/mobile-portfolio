@@ -10,8 +10,8 @@
 body {
   width: 100%;
   height: auto;
-  background: #efefef;
   font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f9;
 }
 
 .container {
@@ -24,7 +24,7 @@ body {
 header {
   width: 100%;
   height: 60px;
-  background: #fff;
+  background-color: #fff;
   padding: 0 30px;
   display: flex;
   align-items: center;
@@ -68,7 +68,11 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  height: auto;
+  margin-bottom: 50px;
+  background-position: center;
+  border: 5px;
+  border-radius: 1px 1px 1px 80px;
+  background-color: #fff;
 }
 
 .header {
@@ -77,6 +81,7 @@ nav {
   font-weight: 700;
   margin-left: 22px;
   color: #172b4d;
+  line-height: 48px;
 }
 
 .header span {
@@ -88,6 +93,7 @@ nav {
   width: 327px;
   font-weight: 400;
   color: #172b4d;
+  margin-top: 20px;
 }
 
 .links {
@@ -110,4 +116,8 @@ nav {
 
 .icons {
   margin-top: 12px;
+}
+
+.shift {
+  margin-bottom: 60px;
 }
