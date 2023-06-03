@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h1><b>Mobile Portfolio</b></h1>
+  <h1><b>Hello Microverse</b></h1>
 
 </div>
 
@@ -27,27 +27,23 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 Mobile Portfolio Project <a name="about-project"></a>
 
-This is a mobile portfolio project in html and css parsed from a figma design
-
-*[Mobile-portfolio]* is a HTML CSS project
+ This website shows a sneak peek into the projects I have developed and deployed, showcasing my skills in HTML and CSS. A mobile responsive portfolio site.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+### Client side <a name="tech-stack"></a>
 
 - HTML
 - CSS
-- Linters
 
 ### Key Features <a name="key-features"></a>
 
-- *Understanding Git, GitHub and GitHub Workflow*
-- *Configuring Linters*
-- *Creating pull requests and merging*
+- Complete mobile responsiveness
+- Well designed UI
 
-A demo link will be uploaded subsequently.
+- A demo link will be uploaded subsequently.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -66,7 +62,7 @@ Clone this repository to your desired folder:
 
 sh
   cd my-folder
-  git clone https://github.com/ngalamac/mobile-portfolio.git
+  git clone https://github.com/ngalamac/mobile-portfolio-project.git
 
 
 ### Install
@@ -74,7 +70,7 @@ sh
 Install this project with:
 
 sh
-  cd my-folder
+  cd mobile-portfolio-project
   npm install
 
 
@@ -95,23 +91,21 @@ sh
 
 You can deploy this project using:
 
-sh
-  gh-pages
-  netlify
-  vercel
+- web browser
+- Live serve
 
 ## 👥 Authors <a name="authors"></a>
 
 👤 *Ngala Mac*
 
-- GitHub: [@ngalamac](https://github.com/ngalamac/mobile-portfolio.git)
+- GitHub: [@ngalamac](https://github.com/ngalamac/mobile-portfolio-project.git)
 
  FUTURE FEATURES 
 
  ## 🔭 Future Features <a name="future-features"></a>
 
-- integration with javascript
-- Adding more html contents
+- Desktop responsive
+- Integration of conntact form
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -123,4 +117,4 @@ I will like to thank microverse and all the students i've collaborated with
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE.MD) licensed.
