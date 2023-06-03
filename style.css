@@ -10,11 +10,11 @@
 body {
   width: 100%;
   height: auto;
+  background: #efefef;
   font-family: 'Poppins', sans-serif;
-  background-color: #f7f7f9;
 }
 
-.container {
+.the-main {
   background: #fff;
   height: 750px;
   border-bottom-left-radius: 100px;
@@ -24,14 +24,14 @@ body {
 header {
   width: 100%;
   height: 60px;
-  background-color: #fff;
+  background: #fff;
   padding: 0 30px;
   display: flex;
   align-items: center;
   z-index: 1;
 }
 
-.logo {
+.the-logo {
   font-family: 'Poppins', sans-serif;
   font-size: 22px;
   color: #6070ff;
@@ -42,15 +42,7 @@ header {
   display: none;
 }
 
-.mylist {
-  display: inline-block;
-  font-size: 15px;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
-  margin: 0 20px;
-}
-
-nav {
+#menubar {
   right: 30px;
   position: absolute;
 }
@@ -64,24 +56,19 @@ nav {
 }
 
 .background_image {
-  background-image: url('Images/header-shapes\ mobile.png');
+  background-image: url('Images/fon.png');
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  margin-bottom: 50px;
-  background-position: center;
-  border: 5px;
-  border-radius: 1px 1px 1px 80px;
-  background-color: #fff;
+  height: auto;
 }
 
 .header {
-  margin-top: 7rem;
+  margin-top: 10rem;
   font-size: 40px;
   font-weight: 700;
   margin-left: 22px;
   color: #172b4d;
-  line-height: 48px;
 }
 
 .header span {
@@ -93,7 +80,6 @@ nav {
   width: 327px;
   font-weight: 400;
   color: #172b4d;
-  margin-top: 20px;
 }
 
 .links {
@@ -110,14 +96,60 @@ nav {
 
 .links ul li {
   display: inline-block;
-  margin-left: 1px;
-  margin-right: 15px;
 }
 
-.icons {
-  margin-top: 12px;
+.about_one ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  margin-left: 2rem;
+  margin-top: 1rem;
 }
 
-.shift {
-  margin-bottom: 60px;
+.about_one p {
+  background: transparent;
+  padding: 4px;
+  margin: 10px 0 0 34px;
+  color: #6070ff;
+  border: 1px solid #6070ff;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  width: 9rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about_one h3 {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  color: rgba(57, 109, 242, 1);
+  font-size: 14px;
+}
+
+.links i {
+  margin: 10px 5px 0 0;
+  color: #505f79;
+}
+
+.card {
+  width: 100%;
+  height: auto;
+  margin-top: 114px;
+  display: flex;
+  justify-content: center;
+}
+
+.cardd {
+  width: auto;
+  height: auto;
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #def1e6;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
